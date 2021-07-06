@@ -9,7 +9,8 @@ source $HOME/.config/nvim/config/coc/coc.vim
 source $HOME/.config/nvim/config/coc/coc-extensions.vim
 
 " plugins config 
-" source $HOME/.config/nvim/config/barbar.vim
+source $HOME/.config/nvim/config/nvim/telescope.nvim
+source $HOME/.config/nvim/config/barbar.vim
 source $HOME/.config/nvim/config/config.vim
 source $HOME/.config/nvim/config/easymotion.vim
 source $HOME/.config/nvim/config/floaterm.vim
@@ -21,4 +22,5 @@ source $HOME/.config/nvim/config/airline.vim
 source $HOME/.config/nvim/config/vista.vim
 
 " theme
-source $HOME/.config/nvim/themes/nord.vim
+source $HOME/.config/nvim/themes/vim-vscode.vim
+

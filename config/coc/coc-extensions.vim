@@ -17,7 +17,6 @@ let g:coc_global_extensions = [
   \ 'coc-cssmodules',
   \ 'coc-stylelintplus',
   \ 'coc-emoji',
-  \ 'coc-bookmark',
   \ 'coc-yaml',
   \ 'coc-python',
   \ 'coc-pyright',
@@ -29,6 +28,7 @@ let g:coc_global_extensions = [
   \ 'coc-yank',
   \ 'coc-json',
   \ 'coc-marketplace',
+  \ 'coc-highlight',
   \ ]
   " \ 'coc-tabnine',
   " \ 'coc-highlight',

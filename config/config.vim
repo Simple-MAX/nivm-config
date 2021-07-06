@@ -35,12 +35,12 @@ set updatetime=300                      " Faster completion
 set timeoutlen=100                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set incsearch
-set guifont=JetBrainsMono\ Nerd\ Font
+set guifont=CaskaydiaCove Nerd Font
 
 " New stuff
 " set notimeout nottimeout
 " set scrolloff=1
-" set sidescroll=1
+set sidescroll=1
 " set sidescrolloff=1
 " set display+=lastline
 " set backspace=eol,start,indent
@@ -54,4 +54,6 @@ set guifont=JetBrainsMono\ Nerd\ Font
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " You can't stop me
-cmap w!! w !sudo tee %
+" cmap w!! w !sudo tee %
+
+au VimEnter * NERDTree

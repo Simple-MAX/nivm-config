@@ -54,8 +54,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'honza/vim-snippets'
     Plug 'mattn/emmet-vim'
     " Better tabline
-    " Plug 'kyazdani42/nvim-web-devicons'
-    " Plug 'romgrk/barbar.nvim'
+    Plug 'ryanoasis/vim-devicons'
+    Plug 'romgrk/barbar.nvim'
     " Auto change html tags
     Plug 'AndrewRadev/tagalong.vim'
     " Smooth scroll
@@ -63,12 +63,23 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Colorizer
     Plug 'norcalli/nvim-colorizer.lua'
     " themes
-    Plug 'dracula/vim', { 'as' : 'dracula' }
+    Plug 'dracula/dracula-theme'
     Plug 'arcticicestudio/nord-vim'
+    Plug 'tomasiser/vim-code-dark'
+    Plug 'morhetz/gruvbox'
+    Plug 'altercation/vim-colors-solarized'
+
     " NerdTree
     Plug 'preservim/nerdtree'
     " find and replace
     Plug 'ChristianChiarulli/far.vim'
+
+    " nvim plugins
+    Plug 'nvim-lua/popup.nvim'
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'nvim-telescope/telescope.nvim'
+    Plug 'nvim-telescope/telescope-fzy-native.nvim'
+
 call plug#end()
 
 
